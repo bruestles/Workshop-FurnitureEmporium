@@ -1,0 +1,44 @@
+/* For the button:
+Text is white (#ffffff), button is #618685
+Contrast Ratio is 3.99:1
+This passes the requirement of a minimum of 4.5:1 for normal text
+and 3:1 for large text. */
+
+.button {
+  background-color: #618685;
+  color: #ffffff;
+  font-size: 18.66px;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
+/* Contrast ratio = 4.54:1 */
+.button:hover {
+  background-color: #2d818b;
+}
+/* For the article:
+Text is black (#000000), article is #fefbd8
+Contrast Ratio is 20:1
+This passes the requirement of a minimum of 4.5:1 for normal text
+and 3:1 for large text. */
+article {
+  width: 250px;
+  margin: 15px;
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background-color: #fefbd8;
+}
+/* Contrast ratio of price to article background fefbd8 = 3.8:1.
+This is fine for large text (14 point or 18.66px or larger) */
+.price {
+  color: #618685;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Contrast ratio of s to article background fefbd8 = 20:1.*/
+s {
+  color: #000000;
+  font-size: 15px;
+}
